@@ -8,7 +8,7 @@ configure_osx: yes
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Development/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
@@ -41,10 +41,6 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
-  - licecap
-  - limechat
-  - macvim
-  - skitch
   - slack
   - vagrant
   - visual-studio-code
@@ -89,6 +85,7 @@ npm_packages: []
   # - name: webpack
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
+
 pip_packages: []
   # - name: mkdocs
   #   state: present # present/absent/latest, default: present
