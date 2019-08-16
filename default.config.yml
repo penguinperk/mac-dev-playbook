@@ -12,6 +12,8 @@ dotfiles_repo_local_destination: ~/Development/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
+  - .zshrc
+  - .tmux.conf
   - .inputrc
   - .osx
   - .vimrc
