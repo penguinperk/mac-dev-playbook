@@ -20,9 +20,19 @@ This is a work in progress, and is mostly a means for me to document my current 
 
 ### Running a specific set of tagged tasks
 
-You can filter which part of the provisioning process to run by specifying a set of tags using `ansible-playbook`'s `--tags` flag. The tags available are `dotfiles`, `homebrew`, `mas`, `extra-packages` and `osx`.
-
+You can filter which part of the provisioning process to run by specifying a set of tags using `ansible-playbook`'s `--tags` flag. 
     ansible-playbook main.yml -i inventory -K --tags "dotfiles,homebrew"
+
+The tags available are: 
+ - dotfiles
+ - homebrew
+ - mas        - Does not work anything after macOS 10.13
+ - extra-packages
+ - osx
+ - vundle     - https://github.com/VundleVim/Vundle.vim
+ - powerline  - https://powerline.readthedocs.io/en/master/
+ - zsh        - https://github.com/robbyrussell/oh-my-zsh
+
 
 ## Overriding Defaults
 
