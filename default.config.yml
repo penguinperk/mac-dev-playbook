@@ -45,12 +45,15 @@ homebrew_cask_apps:
   - google-chrome
   - slack
   - vagrant
-  - visual-studio-code
   - tunnelblick
   - teamviewer
   - Alfred
   - istat-menus
   - keepassx
+  - itsycal
+  - p4v
+  - quassel-client 
+  - sublime-text
   
 
 
