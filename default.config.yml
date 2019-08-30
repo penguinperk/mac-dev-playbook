@@ -54,7 +54,9 @@ homebrew_cask_apps:
   - p4v
   - quassel-client 
   - sublime-text
-  
+  - macvim
+  - iterm2
+
 
 
 
