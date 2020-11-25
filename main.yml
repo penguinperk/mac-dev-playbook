@@ -48,6 +48,6 @@
       include_tasks: tasks/vundle.yml
       tags: ['vundle']
 
-    - name: Run Powerline - a statusline plugin for vim
-      include_tasks: tasks/powerline.yml
-      tags: ['powerline']
+   # - name: Run Powerline - a statusline plugin for vim
+   #   include_tasks: tasks/powerline.yml
+   #   tags: ['powerline']
