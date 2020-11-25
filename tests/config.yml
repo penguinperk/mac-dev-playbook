@@ -13,5 +13,4 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - firefox
-  - limechat
   - macvim
