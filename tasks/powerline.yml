@@ -8,5 +8,6 @@
 - name: Install Powerline via Pip
   pip:
     name: git+git://github.com/Lokaltog/powerline
-    executable: pip3 --user
+    extra_args: --user
+    executable: pip3 
   tags: powerline
