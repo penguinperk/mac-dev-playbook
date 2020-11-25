@@ -13,4 +13,5 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - firefox
+  - iterm2
   - macvim
