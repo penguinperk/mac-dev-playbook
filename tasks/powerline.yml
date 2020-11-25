@@ -11,3 +11,4 @@
     extra_args: --user
     executable: pip3 
   tags: powerline
+
