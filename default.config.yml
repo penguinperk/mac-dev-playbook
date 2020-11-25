@@ -13,7 +13,7 @@ sudoers_custom_config: ''
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
 dotfiles_repo: https://github.com/penguinperk/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/.config/dotfiles
 dotfiles_files:
   - .zshrc
@@ -37,7 +37,7 @@ homebrew_installed_packages:
   - tmux
   - mas
   - zsh
-  - zsh-syntax-highlighting 
+  - zsh-syntax-highlighting
 
 homebrew_taps:
   - homebrew/core
@@ -58,14 +58,10 @@ homebrew_cask_apps:
   - keepassx
   - itsycal
   - p4v
-  - quassel-client 
+  - quassel-client
   - sublime-text
   - macvim
   - iterm2
-
-
-
-
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -78,11 +74,10 @@ mas_installed_apps: []
 #  - { id: 1289197285,  name: "MindNode 5 (5.2.3)" }
 #  - { id: 497799835, name: "Xcode" }
 
-#mas_email: ""
-#mas_password: ""
+# mas_email: ""
+# mas_password: ""
 
 osx_script: "~/.osx --no-restart"
-
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
@@ -95,9 +90,9 @@ gem_packages: []
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
 npm_packages: []
-  # - name: webpack
-  #   state: present # present/absent/latest, default: present
-  #   version: "^2.6" # default: N/A
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
 
 pip_packages: []
 # - name: mkdocs
