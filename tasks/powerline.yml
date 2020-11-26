@@ -9,6 +9,5 @@
   pip:
     name: git+git://github.com/Lokaltog/powerline
     extra_args: --user
-    executable: pip3 
+    executable: pip3
   tags: powerline
-
