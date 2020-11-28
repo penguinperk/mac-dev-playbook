@@ -51,5 +51,3 @@
     - name: Run Vundle - short for Vim bundle and is a Vim plugin manager.
       include_tasks: tasks/vundle.yml
       tags: ['vundle']
-
-
