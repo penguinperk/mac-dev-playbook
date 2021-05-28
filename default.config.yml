@@ -32,12 +32,13 @@ homebrew_installed_packages:
   - openssl
   - wget
   - awscli
-  - python2
   - python3
   - tmux
   - mas
   - zsh
   - zsh-syntax-highlighting
+  - terraform
+  - azure-cli
 
 homebrew_taps:
   - homebrew/core
@@ -52,7 +53,6 @@ homebrew_cask_apps:
   - slack
   - vagrant
   - tunnelblick
-  - teamviewer
   - Alfred
   - istat-menus
   - keepassx

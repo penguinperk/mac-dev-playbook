@@ -1,0 +1,10 @@
+---
+- hosts:all 
+  become: yes
+
+  vars_file:
+    - vars/default_config.yml
+
+  tasks:
+    - name: First
+      shell: ls
